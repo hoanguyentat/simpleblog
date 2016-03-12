@@ -1,0 +1,64 @@
+
+.navbar {
+	margin-bottom: 0px;
+}
+.jumbotron {	
+	background-color: #9D99B3;
+}
+
+.jumbotron h1 {
+	color: #00ffaa;
+}
+
+.list-group {
+	margin-left: 0px;
+}
+
+
+img.img-thumbnail {
+    width: 300px;
+    height: 200px;
+}
+
+p.blur {
+/*    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);*/
+    color: #EDCF4D;
+    text-shadow: 2px 2px 5px #C300FF;
+    font-style: bold;
+    font-size: 40px;
+}
+
+img.img-rounded {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s;
+    -ms-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+
+img.img-rounded:hover {
+    width: 250px;
+    height: 300px;
+}
+
+h2.animation {
+    position: relative;
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animation {
+    from {color: green;}
+    to {color: yellow}
+}
+
+@keyframes animation {
+    from {color: green;}
+    to {color: yellow}
+}
